@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Mega-Sena</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .ticket {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gerador de Mega-Sena</h1>
+    <form id="formTicket">
+        <label for="numeros">Digite seus números (separados por vírgula):</label>
+        <input type="text" id="numeros" name="numeros" required>
+        <button type="submit">Comprar Ticket</button>
+    </form>
+    <div id="tickets"></div>
+    <button id="sorteio">Verificar Ganhadores</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
